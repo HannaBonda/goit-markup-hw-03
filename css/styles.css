@@ -50,8 +50,6 @@ body {
 }
 .header-text {
   background-color: #ffffff;
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .onelogo-link {
@@ -63,6 +61,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .twologo-link {
   font-family: "Raleway";
@@ -82,6 +81,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
+  padding: 24px 0;
 }
 .list-link .site-link:hover,
 .list-link .site-link:focus {
@@ -100,6 +100,7 @@ body {
   text-decoration: none;
   margin-left: auto;
   margin-right: 40px;
+  padding: 24px 0;
 }
 .list-link .address-link :hover,
 .list-link .address-link:focus {
@@ -110,6 +111,7 @@ body {
 .hero {
   background-color: var(--title-text-color);
   text-align: center;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -117,7 +119,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  padding-top: 180px;
   margin-bottom: 48px;
   max-width: 494px;
 }
@@ -128,9 +129,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--button-text-color);
-  border: 1px solid #e7e9fc;
+  border: transparent;
   border-radius: 4px;
-  margin-bottom: 186px;
   padding: 16px 32px;
   max-width: 169px;
 }
@@ -143,7 +143,7 @@ body {
 }
 
 .section {
-  padding-top: 76px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 /* Competencies */
@@ -183,7 +183,7 @@ body {
 /* Doing */
 
 .doing {
-  padding-top: 72px;
+  padding-top: 0;
 }
 .do-title {
   color: var(--title-text-color);
@@ -205,6 +205,7 @@ body {
 
 .team-section {
   background: #f4f4fd;
+  padding-top: 120px;
 }
 .team-title {
   color: var(--title-text-color);
@@ -227,7 +228,7 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  padding: 12px 24px 12px 24px;
+  padding: 16px 32px 16px 32px;
   text-align: center;
 }
 .name-title {
@@ -247,14 +248,14 @@ body {
 .footer {
   background-color: var(--title-text-color);
   text-decoration: none;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .container-footer {
   width: 1128px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .footerlogo-link {
@@ -293,7 +294,6 @@ body {
   justify-content: center;
   gap: 24px;
   padding-bottom: 72px;
-  /* padding-top: 60px; */
 }
 .portfolio-button {
   color: var(--button-text-color);
@@ -302,7 +302,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  border: transparent;
   border-radius: 4px;
   cursor: pointer;
   padding: 12px 24px 12px 24px;
